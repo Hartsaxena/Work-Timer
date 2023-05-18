@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5340A2B829ACF79D003F115D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340A2B729ACF79D003F115D /* APIResponse.swift */; };
+		5341B2222A0157D80034A665 /* themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5341B2202A0157C70034A665 /* themes.json */; };
 		5357AAC5290047030058E400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAC4290047030058E400 /* AppDelegate.swift */; };
 		5357AAC7290047030058E400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAC6290047030058E400 /* SceneDelegate.swift */; };
-		5357AAC9290047030058E400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAC8290047030058E400 /* ViewController.swift */; };
+		5357AAC9290047030058E400 /* ProfileSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAC8290047030058E400 /* ProfileSetupVC.swift */; };
 		5357AACC290047030058E400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5357AACA290047030058E400 /* Main.storyboard */; };
 		5357AACE290047050058E400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5357AACD290047050058E400 /* Assets.xcassets */; };
 		5357AAD1290047050058E400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5357AACF290047050058E400 /* LaunchScreen.storyboard */; };
 		5357AADC290047060058E400 /* WorkTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AADB290047060058E400 /* WorkTimerTests.swift */; };
 		5357AAE6290047060058E400 /* WorkTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAE5290047060058E400 /* WorkTimerUITests.swift */; };
 		5357AAE8290047060058E400 /* WorkTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAE7290047060058E400 /* WorkTimerUITestsLaunchTests.swift */; };
+		5357AAF52900483D0058E400 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357AAF42900483D0058E400 /* Profile.swift */; };
+		536B6FEC29D1FFAF0076DAC5 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B6FEB29D1FFAF0076DAC5 /* Themes.swift */; };
+		537D1DDA297991D4008C2B0A /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D1DD9297991D4008C2B0A /* SharedData.swift */; };
+		5387551F2A166C230011749C /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5387551D2A166C230011749C /* light.png */; };
+		538755202A166C230011749C /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5387551E2A166C230011749C /* dark.png */; };
+		5388857D29228BA300656677 /* HomeSceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5388857C29228BA300656677 /* HomeSceneVC.swift */; };
+		5388857F2922924000656677 /* TimerSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5388857E2922924000656677 /* TimerSetupVC.swift */; };
+		538C8023293921A800BEBD2E /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538C8022293921A800BEBD2E /* TimerVC.swift */; };
+		53A7429F2A12C8F10021D4DC /* departure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 53A7429D2A12C8F10021D4DC /* departure.jpeg */; };
+		53A742A02A12C8F10021D4DC /* uncledavesausage.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A7429E2A12C8F10021D4DC /* uncledavesausage.png */; };
+		53A742A42A151A080021D4DC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A742A32A151A080021D4DC /* UIColorExtension.swift */; };
+		53A742A62A15CD5B0021D4DC /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A742A52A15CD5B0021D4DC /* MainTabBar.swift */; };
+		53AA7154290C3E4700440CCD /* ProfileSceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA7153290C3E4700440CCD /* ProfileSceneVC.swift */; };
+		53E177B029CDF3EA00ADE633 /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E177AF29CDF3EA00ADE633 /* StoreCollectionViewCell.swift */; };
+		53EDA81729B2743B001143E4 /* Tangerine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EDA81529B2743B001143E4 /* Tangerine-Regular.ttf */; };
+		53EDA81829B2743B001143E4 /* Tangerine-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EDA81629B2743B001143E4 /* Tangerine-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5340A2B729ACF79D003F115D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		5341B2202A0157C70034A665 /* themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = themes.json; sourceTree = "<group>"; };
 		5357AAC1290047030058E400 /* WorkTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5357AAC4290047030058E400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5357AAC6290047030058E400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5357AAC8290047030058E400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5357AAC8290047030058E400 /* ProfileSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupVC.swift; sourceTree = "<group>"; };
 		5357AACB290047030058E400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5357AACD290047050058E400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5357AAD0290047050058E400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,22 @@
 		5357AAE1290047060058E400 /* WorkTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5357AAE5290047060058E400 /* WorkTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimerUITests.swift; sourceTree = "<group>"; };
 		5357AAE7290047060058E400 /* WorkTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5357AAF42900483D0058E400 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		536B6FEB29D1FFAF0076DAC5 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		537D1DD9297991D4008C2B0A /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		5387551D2A166C230011749C /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		5387551E2A166C230011749C /* dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark.png; sourceTree = "<group>"; };
+		5388857C29228BA300656677 /* HomeSceneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneVC.swift; sourceTree = "<group>"; };
+		5388857E2922924000656677 /* TimerSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSetupVC.swift; sourceTree = "<group>"; };
+		538C8022293921A800BEBD2E /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		53A7429D2A12C8F10021D4DC /* departure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = departure.jpeg; sourceTree = "<group>"; };
+		53A7429E2A12C8F10021D4DC /* uncledavesausage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncledavesausage.png; sourceTree = "<group>"; };
+		53A742A32A151A080021D4DC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		53A742A52A15CD5B0021D4DC /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		53AA7153290C3E4700440CCD /* ProfileSceneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSceneVC.swift; sourceTree = "<group>"; };
+		53E177AF29CDF3EA00ADE633 /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		53EDA81529B2743B001143E4 /* Tangerine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Regular.ttf"; sourceTree = "<group>"; };
+		53EDA81629B2743B001143E4 /* Tangerine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +115,7 @@
 		5357AAB8290047030058E400 = {
 			isa = PBXGroup;
 			children = (
+				5341B2202A0157C70034A665 /* themes.json */,
 				5357AAC3290047030058E400 /* WorkTimer */,
 				5357AADA290047060058E400 /* WorkTimerTests */,
 				5357AAE4290047060058E400 /* WorkTimerUITests */,
@@ -99,13 +136,20 @@
 		5357AAC3290047030058E400 /* WorkTimer */ = {
 			isa = PBXGroup;
 			children = (
+				53BDD08429DC8D64002D6E38 /* Images */,
+				537D1DD9297991D4008C2B0A /* SharedData.swift */,
+				5357AAF42900483D0058E400 /* Profile.swift */,
+				53839DC729A6B94300128A03 /* ViewControllers */,
 				5357AAC4290047030058E400 /* AppDelegate.swift */,
 				5357AAC6290047030058E400 /* SceneDelegate.swift */,
-				5357AAC8290047030058E400 /* ViewController.swift */,
 				5357AACA290047030058E400 /* Main.storyboard */,
 				5357AACD290047050058E400 /* Assets.xcassets */,
 				5357AACF290047050058E400 /* LaunchScreen.storyboard */,
 				5357AAD2290047050058E400 /* Info.plist */,
+				53EDA81029B2735D001143E4 /* Fonts */,
+				536B6FEB29D1FFAF0076DAC5 /* Themes.swift */,
+				53A742A32A151A080021D4DC /* UIColorExtension.swift */,
+				53A742A52A15CD5B0021D4DC /* MainTabBar.swift */,
 			);
 			path = WorkTimer;
 			sourceTree = "<group>";
@@ -125,6 +169,56 @@
 				5357AAE7290047060058E400 /* WorkTimerUITestsLaunchTests.swift */,
 			);
 			path = WorkTimerUITests;
+			sourceTree = "<group>";
+		};
+		536B6FED29D2006B0076DAC5 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				53EDA81629B2743B001143E4 /* Tangerine-Bold.ttf */,
+				53EDA81529B2743B001143E4 /* Tangerine-Regular.ttf */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		53839DC729A6B94300128A03 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53E177B129CDF3FB00ADE633 /* HomeScene */,
+				5357AAC8290047030058E400 /* ProfileSetupVC.swift */,
+				538C8022293921A800BEBD2E /* TimerVC.swift */,
+				5388857E2922924000656677 /* TimerSetupVC.swift */,
+				53AA7153290C3E4700440CCD /* ProfileSceneVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		53BDD08429DC8D64002D6E38 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5387551E2A166C230011749C /* dark.png */,
+				5387551D2A166C230011749C /* light.png */,
+				53A7429D2A12C8F10021D4DC /* departure.jpeg */,
+				53A7429E2A12C8F10021D4DC /* uncledavesausage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		53E177B129CDF3FB00ADE633 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				5340A2B729ACF79D003F115D /* APIResponse.swift */,
+				5388857C29228BA300656677 /* HomeSceneVC.swift */,
+				53E177AF29CDF3EA00ADE633 /* StoreCollectionViewCell.swift */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		53EDA81029B2735D001143E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				536B6FED29D2006B0076DAC5 /* Default */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +325,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5341B2222A0157D80034A665 /* themes.json in Resources */,
+				538755202A166C230011749C /* dark.png in Resources */,
 				5357AAD1290047050058E400 /* LaunchScreen.storyboard in Resources */,
+				5387551F2A166C230011749C /* light.png in Resources */,
+				53EDA81729B2743B001143E4 /* Tangerine-Regular.ttf in Resources */,
+				53EDA81829B2743B001143E4 /* Tangerine-Bold.ttf in Resources */,
 				5357AACE290047050058E400 /* Assets.xcassets in Resources */,
 				5357AACC290047030058E400 /* Main.storyboard in Resources */,
+				53A7429F2A12C8F10021D4DC /* departure.jpeg in Resources */,
+				53A742A02A12C8F10021D4DC /* uncledavesausage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5357AAC9290047030058E400 /* ViewController.swift in Sources */,
+				53A742A42A151A080021D4DC /* UIColorExtension.swift in Sources */,
+				537D1DDA297991D4008C2B0A /* SharedData.swift in Sources */,
+				53A742A62A15CD5B0021D4DC /* MainTabBar.swift in Sources */,
+				536B6FEC29D1FFAF0076DAC5 /* Themes.swift in Sources */,
+				5357AAC9290047030058E400 /* ProfileSetupVC.swift in Sources */,
+				5357AAF52900483D0058E400 /* Profile.swift in Sources */,
+				5340A2B829ACF79D003F115D /* APIResponse.swift in Sources */,
 				5357AAC5290047030058E400 /* AppDelegate.swift in Sources */,
+				53E177B029CDF3EA00ADE633 /* StoreCollectionViewCell.swift in Sources */,
+				5388857D29228BA300656677 /* HomeSceneVC.swift in Sources */,
 				5357AAC7290047030058E400 /* SceneDelegate.swift in Sources */,
+				53AA7154290C3E4700440CCD /* ProfileSceneVC.swift in Sources */,
+				5388857F2922924000656677 /* TimerSetupVC.swift in Sources */,
+				538C8023293921A800BEBD2E /* TimerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Default",
+        "previewImage": "light",
+        "price": 0,
+        
+        "topBarColor": "#A020F0",
+        "bodyColor": "#FFFFFF",
+
+        "normalFont": "System",
+        "titleFont": "System",
+        "fancyFont": "Tangerine-Regular",
+        "smallFont": "System"
+    },
+    {
+        "name": "Dark",
+        "previewImage": "dark",
+        "price": 0,
+        
+        "topBarColor": "#707070",
+        "bodyColor": "#413A3A",
+        
+        "normalFont": "System",
+        "titleFont": "System",
+        "fancyFont": "Tangerine-Regular",
+        "smallFont": "System"
+    }
+]
