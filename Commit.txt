@@ -1,1 +1,3 @@
-First Commit.
+Second commit. Small bugfixes for guest functionality and undoing changes 
+made for presentation.
+Currently in inteded distribution functionality.

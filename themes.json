@@ -15,7 +15,7 @@
     {
         "name": "Dark",
         "previewImage": "dark",
-        "price": 0,
+        "price": 10,
         
         "topBarColor": "#707070",
         "bodyColor": "#413A3A",

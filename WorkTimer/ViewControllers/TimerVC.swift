@@ -87,9 +87,11 @@ class MyTimer: UIViewController, Themed {
     func saveTime() {
         let minutes = Int(floor(Double(self.timePassed) / 60))
         print("Minutes Saved: \(minutes)")
-        SharedData.shared.currentUser!.studyMinutes += minutes
-        SharedData.shared.currentUser!.focusPoints += minutes
-
+        
+        if (SharedData.shared.currentUser != nil) {
+            SharedData.shared.currentUser!.studyMinutes += minutes
+            SharedData.shared.currentUser!.focusPoints += minutes
+        }
     }
 
 
